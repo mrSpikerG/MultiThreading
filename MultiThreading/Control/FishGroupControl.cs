@@ -81,7 +81,6 @@ namespace MultiThreading.Control
                                     fish.FeedingTime = DateTime.Now;
                                     Form1.Money += 11;
                                     Form1.coinlabel.Text = Form1.Money.ToString();
-                                    this.mainform.Update();
                                     this.MeatBalls.Remove(food);
                                 }
                             }
